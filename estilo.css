@@ -1,0 +1,106 @@
+Body/*Esta etiqueta cambia el fondo de imagen, que no se repita y que se quede fijado, le pone margenes a la pagina, color de letra, interlineado y el tipo de letra, TODOS los codigos los obtuve de aqui:https://www.w3schools.com/html/default.asp*/
+ 	{
+	background-image:url("images/fondo.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin-left:6cm;
+	margin-right:6cm;
+	color:#E79A00;
+	line-height:1.5;
+	font-family:"Georgia"
+	}
+
+p.Primero/*cambia el color de fondo del texto, el color del texto, el tamaño de letra y la posicion del texto*/
+	{
+	background-color:#2D2D2D;
+	color:#E4AE03;
+	font-size:22px;
+	text-align:center;
+	}
+
+.aud/*cambia el tipo de borde, el grosor del borde, su color y que este centrado*/
+	{
+	margin-left:auto;
+	margin-right:auto;
+	border-style:solid;
+	border-width:5px;
+	border-color:#E4AE03;
+	display:block;
+	}
+
+h1.titulo/*tamaño de letra, tipo de letra, color de la letra, que este centrado, el grosor de la letra, la posicion del texto y el efecto de sombra*/
+	{
+	font-size:100px;
+	font-family:"Arial";
+	color:#E79A00;
+	margin:auto;
+	font-weight:bold;
+	text-align:center;
+	text-shadow:2px 2px 5px red;
+	}
+h2/*tamano, familia y color de letra, que este centrado, que su fondo sea negro, el grosor de letra en negrita y que este centrado*/
+	{
+	font-size:75px;
+	font-family:"Arial";
+	color:#E79A00;
+	margin:auto;
+	background-color:black;
+	font-weight:bold;
+	text-align:center;
+	}
+
+h3/*el tamaño de letra, el color de letra, la posicion de texto, el grosor de texto, y el tipo de texto*/
+	{
+	font-size:50px;
+	color:#E79A00;
+	font-weight:bold;
+	font-family:"Arial";
+	}
+
+a:link, a:visited/*el color de fondo, color de letra, el espacio vertical y horizontal, que este centrado y sin decoraciones*/
+	{
+  	background-color: #3B3B3B;
+  	color: white;
+ 	padding: 14px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+	}
+
+a:hover, a:active/*el color del hipervinculo cuando tienes el cursor encima de el*/ 
+	{
+  	background-color:#757575;
+	}
+	
+ul/*ningun estilo de lista, sin margen y tampoco espacio, grosor, y el color de fondo*/
+	{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:150px;
+	background color:#3B3B3B;
+	}
+
+li a/*color de la lista, espacio vertical y horizontal, sin decoraciones*/
+	{
+	display:block;
+	color:black;
+	padding: 8px 16px;
+	text-decoration:none;
+	}
+
+li a:hover/*color de fondo, y el color de letra*/
+	{
+	background-color: #555;
+	color: white;
+	}
+
+
+	
+	
+	
+	
+	
+	
+	
+	

@@ -1,0 +1,167 @@
+Body/*Color de fondo, margenes de izquierda y derecha, color de letra, interlineado, y familia de letra, TODOS LOS CODIGOS los saque de aqui:https://www.w3schools.com/html/default.asp*/
+	{
+	background-color:#1C1C1C;
+	margin-left:6cm;
+	margin-right:6cm;
+	color:#E79A00;
+	line-height:1.5;
+	font-family:"Georgia"
+	}
+
+p.Primero/*cambia el color de fondo del texto, el color del texto, el tamaño de letra y la posicion del texto*/
+	{
+	background-color:#2D2D2D;
+	color:#E4AE03;
+	font-size:22px;
+	text-align:center;
+	}
+.aud/*cambia el tipo de borde, el grosor del borde, su color y que este centrado*/
+	{
+	margin-left:auto;
+	margin-right:auto;
+	border-style:solid;
+	border-width:5px;
+	border-color:#FFC3C3;
+	display:block;
+	}
+img.visual/*cambia el tipo de borde, el grosor del borde, su color y el espacio a sus cuatro lados*/
+	{
+	border-style:dashed;
+	border-width:3px;
+	padding:15px;
+	border-color:#E79A00;
+	}
+h1.titulo/*tamaño de letra, tipo de letra, color de la letra, que este centrado, el grosor de la letra, la posicion del texto y el efecto de sombra*/
+	{
+	font-size:100px;
+	font-family:"Arial";
+	color:#FFB008;
+	margin:auto;
+	font-weight:bold;
+	text-align:center;
+	text-shadow:2px 2px 5px red;
+	}
+
+h2/*tamano, familia y color de letra, que este centrado, que su fondo sea negro, el grosor de letra en negrita y que este centrado*/
+	{
+	font-size:70px;
+	font-family:"Arial";
+	color:#FFB008;
+	margin:auto;
+	font-weight:bold;
+	text-align:center;
+	}
+
+h3/*el tamaño de letra, el color de letra, la posicion de texto, el grosor de texto, y el tipo de texto*/
+	{
+	font-size:35px;
+	color:#FFB008;
+	font-weight:bold;
+	font-family:"Arial";
+	}
+
+table/*el tipo de borde de la tabla de afuera, el color, el grosor y que este centrada la tabla*/
+	{
+	border-style:solid;
+	border-color:#FFC3C3;
+	border-width:5px;
+	margin:auto;
+	}
+
+table th/*El grosor del encabezado de tabla, el color de fondo del encabezado, el color de letra de encabezado, la posicion, y el tamano*/
+	{
+	Font-type:Bold;
+	background-color:#602929;
+	color:#FFC3C3;
+	text-align:Left;
+	font-size:30px;
+	}
+
+table td/*El color de letra del contenido,el tipo de letra, y el color de fondo del contenido*/
+	{	
+	text-aling:left;
+	color:#FFC3C3;
+	font-style:italic;
+	background-color:#602929;
+	}
+ul.3ra/*cambia el color de fondo de toda la tabla, el tipo de letra y el tamaño de letra*/
+	{
+	list-style-type:circle;
+	background-color:#C20C00;
+	font-family:"Times New Roman";
+	font-size:16px;
+	}
+ul.3ra li/*cambia el color de las letras, el margen de la izquierda y el fondo de texto*/
+	{
+	color:white;
+	margin-left:35px;
+	backgrodund-color:#F89F99;
+	}	
+
+
+
+
+
+
+
+
+a:link, a:visited /*el color de fondo, el color de letra, el espacio vertical y horizontal, posicion del texto, sin decoracion*/{
+  	background-color: #3B3B3B;
+  	color: white;
+ 	padding: 14px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+	}
+
+a:hover, a:active/*el color de fondo*/
+	{
+  	background-color:#757575;
+	}
+	
+	
+ul.primera/*estilo de lista ninguno, sin margenes ni espacio pero con grosor, y color de fondo*/
+	{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:150px;
+	background color:#3B3B3B;
+	}
+
+li a/*color, espacio vertical y horizontal, sin decoracion de texto*/
+	{
+	display:block;
+	color:black;
+	padding: 8px 16px;
+	text-decoration:none;
+	}
+
+li a:hover/*color de fondo color de letra*/
+	{
+	background-color: #555;
+	color: white;
+	}
+
+a.movie:active/*color de fondo*/
+	{
+	background-color:#FFA540;
+	
+	}
+	
+a.movie:link, a.movie:visited/*color de fondo, color de letra y espacio vertical y horizontal*/
+	{
+	background-color:#E79A00;
+	color:white;
+	padding:10px 14px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
